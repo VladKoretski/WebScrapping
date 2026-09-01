@@ -46,12 +46,14 @@ pip install -r requirements.txt
 Настройте конфигурацию в файле config/config.py:
 
 python
+```
 URL = "https://habr.com/ru/articles/"
 CONTENT_BLOCK = "div.tm-articles-list"
 ARTICLE_BLOCK = "article.tm-articles-list__item"
 ARTICLE_TITLE = "h2.tm-title a.tm-title__link"
 ARTICLE_BODY = "div.tm-article-body"
-KEYWORDS = ['дизайн', 'фото', 'web', 'python']  
+KEYWORDS = ['дизайн', 'фото', 'web', 'python']
+```
 
 ## Структура проекта
 text
